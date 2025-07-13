@@ -1,21 +1,21 @@
 import {
-  Box,
-  Button,
-  Container,
-  Heading,
-  Icon,
-  Link,
-  Stack,
-  Text,
-  useBreakpointValue,
-  useColorMode,
+	Box,
+	Button,
+	Container,
+	Heading,
+	Icon,
+	Link,
+	Stack,
+	Text,
+	useBreakpointValue,
+	useColorMode,
 } from '@chakra-ui/react'
 import {
-  fadeInUp,
-  letterSpace,
-  scaleUp,
-  simpleOpacity,
-  stagger,
+	fadeInUp,
+	letterSpace,
+	scaleUp,
+	simpleOpacity,
+	stagger,
 } from 'config/animations'
 import { SocialMedias } from 'config/sidebar'
 import { motion } from 'framer-motion'
@@ -117,7 +117,7 @@ const Sidebar = () => {
             width="120px"
             variants={simpleOpacity}
             as={'a'}
-            href="mailto:nouabi@nouabi.tech"
+            href="mailto:nouabi@nouabi.engineer"
             target="_blank"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}

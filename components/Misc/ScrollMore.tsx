@@ -1,9 +1,9 @@
 import {
-  Box,
-  Icon,
-  Text,
-  useBreakpointValue,
-  useColorModeValue,
+	Box,
+	Icon,
+	Text,
+	useBreakpointValue,
+	useColorModeValue,
 } from '@chakra-ui/react'
 import { mobileBreakpointsMap } from 'config/theme'
 import { AnimatePresence, motion, Variants } from 'framer-motion'
@@ -130,7 +130,7 @@ const ScrollMore = () => {
                 marginTop: '10px',
               }}
             >
-              nouabi@nouabi.tech{' '}
+              nouabi@nouabi.engineer{' '}
             </Text>
           </motion.div>
         )}

@@ -20,7 +20,7 @@ export const SocialMedias: SocialMedia[] = [
   },
   {
     label: 'Email',
-    href: 'mailto:nouabi@nouabi.tech',
+    href: 'mailto:nouabi@nouabi.engineer',
     icon: FaAt,
   },
 ]
