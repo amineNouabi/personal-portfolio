@@ -1,27 +1,27 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import {
-  Text,
-  Link,
-  Stack,
-  Tabs,
-  TabList,
-  Tab,
-  TabPanels,
-  TabPanel,
   Image,
+  Link,
   List,
   ListIcon,
   ListItem,
-  SlideFade,
   Skeleton,
-  useColorModeValue,
+  SlideFade,
+  Stack,
+  Tab,
+  TabList,
+  TabPanel,
+  TabPanels,
+  Tabs,
+  Text,
   useBreakpointValue,
   useColorMode,
+  useColorModeValue,
 } from '@chakra-ui/react'
-import { BiRightArrow } from 'react-icons/bi'
-import styles from './styles.module.css'
 import { ExperiencesList } from 'config/experience'
 import { mobileBreakpointsMap } from 'config/theme'
+import { BiRightArrow } from 'react-icons/bi'
+import styles from './styles.module.css'
 
 const ExperienceTab = () => {
   const { colorMode } = useColorMode()
@@ -78,7 +78,7 @@ const ExperienceTab = () => {
                 colorMode === 'dark' ? company.logo.dark : company.logo.light
               }
               alt={company.longName}
-              maxWidth="88px"
+              maxHeight="100px"
               fallback={<Skeleton height="100%" width="100%" />}
             ></Image>
           </Tab>

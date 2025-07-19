@@ -49,8 +49,9 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
         What i do.
       </Heading>
       <Text variant="description">
-        I`ve been in the software field for {professionalYears} years now and
-        learning hardware stuffs as well. I love to work with{' '}
+        I’ve been working in the software field for {professionalYears} years
+        while also expanding my knowledge in hardware. I enjoy building and
+        solving complex problems across both domains.
       </Text>
 
       <SimpleGrid columns={2} spacing={4}>

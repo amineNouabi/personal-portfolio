@@ -9,7 +9,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { useEffect } from 'react'
 
 const AvatarImages = {
-  DarkMode: './profile.jpg',
+  DarkMode: './profile-dark.png',
   LightMode: './profile.jpg',
 }
 
@@ -49,7 +49,7 @@ const Avatar = () => {
       >
         <ChkImage
           src={imgAvatar}
-          alt="KL Lawingco Avatar"
+          alt="Ahmed Amine Nouabi Avatar"
           htmlWidth="250"
           htmlHeight="250"
           margin="auto"

@@ -1,21 +1,21 @@
 import {
-	Box,
-	Button,
-	Container,
-	Heading,
-	Icon,
-	Link,
-	Stack,
-	Text,
-	useBreakpointValue,
-	useColorMode,
+  Box,
+  Button,
+  Container,
+  Heading,
+  Icon,
+  Link,
+  Stack,
+  Text,
+  useBreakpointValue,
+  useColorMode,
 } from '@chakra-ui/react'
 import {
-	fadeInUp,
-	letterSpace,
-	scaleUp,
-	simpleOpacity,
-	stagger,
+  fadeInUp,
+  letterSpace,
+  scaleUp,
+  simpleOpacity,
+  stagger,
 } from 'config/animations'
 import { SocialMedias } from 'config/sidebar'
 import { motion } from 'framer-motion'
@@ -97,15 +97,16 @@ const Sidebar = () => {
 
           <MotionText
             variant="description"
-            fontSize="small"
+            fontSize="medium"
             paddingRight={{ lg: '12' }}
             variants={fadeInUp}
             maxWidth={{ base: '100%', lg: '80%' }}
           >
-            An undergraduate multidisciplinary engineer specializing in
-            electromechanical engineering with passion for software and system
-            engineering. I am always looking for new challenges and
-            opportunities to learn and grow.
+            I am a multidisciplinary engineer specializing in electromechanical
+            engineering, with a strong passion for software and systems
+            engineering. Now officially graduated, I continue to seek new
+            challenges and opportunities to learn, grow, and contribute
+            meaningfully to innovative projects.
           </MotionText>
           <MotionButton
             size="lg"

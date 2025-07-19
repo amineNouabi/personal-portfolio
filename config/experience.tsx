@@ -1,4 +1,4 @@
-export type Company = 'FeverTokens' | 'Gloowon'
+export type Company = 'FeverTokens' | 'Gloowon' | 'MSMP'
 export type CompanyDetail = {
   name: string
   longName?: string
@@ -16,11 +16,28 @@ export type CompanyDetail = {
 export const Experiences: {
   [key in Company]: CompanyDetail
 } = {
+  MSMP: {
+    name: 'MSMP - Arts et Métiers ParisTech',
+    url: 'https://www.msmp.eu/',
+    position: 'Industrial IoT & DevOps Engineer',
+    duration: 'Mars 2025 - July 2025',
+    logo: {
+      light: '/worked_at_logos/ensam-fr/ensam-fr.jpeg',
+      dark: '/worked_at_logos/ensam-fr/ensam-fr.png',
+    },
+    roles: [
+      <>Installed and conﬁgured industrial sensors.</>,
+      <>Programmed PLC controller to retrieve data from sensors.</>,
+      <>Integrated CNC machine tool data using MQTT protocol.</>,
+      <>Built a real-time dashboard with WebSockets for data visualization.</>,
+      <>Developed a Dockerized architecture.</>,
+    ],
+  },
   FeverTokens: {
     name: 'Fevertokens',
     url: 'https://www.fevertokens.io/',
     position: 'Blockchain Mobile Developer',
-    duration: 'Sep 2024 - Present',
+    duration: 'July 2024 - Nov 2024',
     logo: {
       light:
         'https://cdn.prod.website-files.com/61d9a9b5355373e087deb806/659cf260960988ec5d061b68_FTlogo.png',
@@ -43,7 +60,7 @@ export const Experiences: {
     longName: 'Gloowon Inc.',
     url: 'https://gloowon.com/',
     position: 'Solution Achitect & Software Engineer',
-    duration: 'Sep 2021 - Sep 2024',
+    duration: 'July 2021 - Feb 2024',
     logo: {
       light: '/worked_at_logos/gloowon/logo.png',
       dark: '/worked_at_logos/gloowon/logo.png',
@@ -63,4 +80,8 @@ export const Experiences: {
   },
 }
 
-export const ExperiencesList = [Experiences.FeverTokens, Experiences.Gloowon]
+export const ExperiencesList = [
+  Experiences.MSMP,
+  Experiences.FeverTokens,
+  Experiences.Gloowon,
+]
